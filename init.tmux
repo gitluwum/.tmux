@@ -37,10 +37,7 @@ bind-key C-l resize-pane -R
 # Windows
 ####################################### 
 
-new-window -d -n nvim nvim
-new-window -d -n sys htop
-new-window -d -n mail
-new-window -d -n news
+if 'tmux has -t $USER' 'attach -t $USER' 'new -A -s $USER'
 
 #######################################
 # Plugins
