@@ -34,7 +34,7 @@ bind-key C-k resize-pane -D
 bind-key C-l resize-pane -R
 
 ####################################### 
-# Windows
+# Session
 ####################################### 
 
 if 'tmux has -t $USER' 'attach -t $USER' 'new -A -s $USER'
