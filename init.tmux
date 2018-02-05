@@ -2,7 +2,7 @@
 # General
 ####################################### 
 set-option -g prefix C-a
-set-option -g escape-time 400
+set-option -g escape-time 250
 set-option -g default-shell /bin/sh
 set-option -g default-command "exec $(default_shell)"
 set-option -g default-terminal screen-256color
